@@ -177,6 +177,9 @@ class ESPAsyncE131 {
 
     // Diag functions
     void dumpError(e131_error_t error);
+
+    // Close listener
+    void end();
 };
 
 #endif  // ESPASYNCE131_H_
