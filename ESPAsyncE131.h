@@ -180,6 +180,9 @@ class ESPAsyncE131 {
 
     // Close listener
     void end();
+
+    // Check if listener is connected
+    bool isConnected() { return udp.connected(); }
 };
 
 #endif  // ESPASYNCE131_H_
